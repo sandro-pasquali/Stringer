@@ -1,0 +1,341 @@
+
+HTML
+  {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+BODY
+  {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Tahoma, Arial, Verdana;
+    font-weight: bold;
+		font-size: 12px;
+		color: #000000;
+  }
+ 
+TABLE
+  {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  } 
+  
+LABEL 
+  {
+    float: left;
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+		font-size: 12px;
+    font-family: Tahoma, Arial, Verdana;
+  }  
+	
+FIELDSET
+  {
+    margin: 10px;
+    padding: 4px;
+		font-size: 12px;
+    font-family: Tahoma, Arial, Verdana;
+    color: #000000;
+    border: 1px #c0c0c0 solid;
+  }
+	  
+LEGEND
+  {
+		font-size: 12px;
+    font-family: Tahoma, Arial, Verdana;
+    padding: 0px;
+    color: #0000A0;
+  }
+  	
+SELECT
+  {
+    height: 20px;
+    color: #000000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+  
+  
+/*
+ * Styles for file browser & folder/file lists
+ */
+
+.ghost_off 
+  {
+    height: 20px;
+    width: 150px;
+    left: 10px; 
+    top: 50px;
+    border: 2px solid #B6D9F3;
+    position: absolute;
+    background-color: #EFEFFF;
+    z-index: 11000;
+    visibility: hidden;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px;
+  }
+  
+.ghost_on
+  {
+    height: 20px;
+    width: 150px;
+    border: 2px solid #4AC521;
+    position: absolute;
+    background-color: #A6F185;
+    z-index: 11000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px;
+  }
+
+#file_browser_container
+  {
+    position: fixed; 
+    left: 240px; 
+    top: 0px; 
+    height: 100px; 
+    border: 0px;
+    margin-top: 30px;
+  }  
+
+#file_browser
+  {
+    position: relative; 
+    left: 0px; 
+    top: 0px; 
+    width: 750px; 
+    height: 100px; 
+    border: 1px black solid;
+    padding-top: 10px;
+  }
+  
+#fb_control
+  {
+    border: 1px black solid; 
+  }
+
+#fb_directory_container
+  {
+    width: inherit;
+    background-color: #D7F9C8;
+    padding: 2px;
+  }
+  
+#fb_directory
+  {
+    height: 22px;
+  }
+  
+#fb_options
+  {
+    height: 36px;
+    padding: 2px;
+  }
+
+.folder_breadcrumbs
+  {
+    cursor: pointer;
+    cursor: hand;
+  }
+
+.active_folder
+  {
+    font-weight: bold;
+    cursor: pointer;
+    cursor: hand;
+    background-color: #D7F9C8;
+    display: inline;
+  }
+  
+/*
+ * inactive folder
+ */  
+.inactive_folder
+  {
+    font-weight: normal;
+    cursor: pointer;
+    cursor: hand;
+    display: inline;
+  }
+  
+.active_file
+  {
+    background-color: #D7F9C8;
+    display: inline;
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+.inactive_file
+  {
+    display: inline;
+    font-weight: normal;
+    cursor: pointer;
+    cursor: hand;
+  }
+  
+#keyword_assistant
+  {
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 14px;
+    color: #000000; 
+  }
+  
+  
+/*
+ * Admin Header
+ */
+  
+
+#admin_panel
+  {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    position: fixed;
+  }	  
+  
+.admin_buttons
+  {
+    float: right;
+    height: 28px;
+    padding: 2px;
+    background-color: #a9a9a9;
+    border: 1px #d4d4d4 solid;
+    font-family: Tahoma, Georgia, Arial;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+.selectedButton
+  {
+    float: right;
+    height: 28px;
+    padding: 2px;
+    background-color: #d4d4d4;
+    border: 1px #a9a9a9 solid;
+    font-family: Tahoma, Georgia, Arial;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+/*
+ * icon definitions
+ */
+
+.icon
+  {
+    float: left; 
+    background-repeat: no-repeat; 
+    
+    /*
+     * margin-left set in code, see below
+     */
+    margin-right: 3px;
+  }
+  
+.action_icon
+  {
+    margin-right: 10px;
+    width: 32px; 
+    height: 32px; 
+    float: left; 
+    cursor: pointer; 
+    cursor: hand;
+  }
+
+/*
+ * Forms and Fields
+ */
+
+.submit_field
+  {
+    border: 1px #C0C0C0 solid;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    color: #000000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+  }  
+	  
+.submit_checkbox
+  {
+    border: 1px #C0C0C0 solid;
+    height: 20px;
+    color: #000000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+  } 
+	  
+.submit_radio	  
+  {
+    float: left;
+    height: 20px;
+    color: #000000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: text-top;
+  } 
+  
+.text_area
+  {
+    border: 1px #C0C0C0 solid;
+    height:100px;
+    width: 320px;
+    color: #000000;
+    font-family: Tahoma, Arial, Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 4px;
+  }  
+	  
+.form_col
+  {
+    float: left;
+    margin-left: 10px;
+    width: 48%;
+    padding: 0px;
+    border: 0px;
+    margin-top: 24px;
+  }
+	  
+.control_buttons
+  {
+    float: right; 
+    margin-right: 10px;
+  }
+  
+
+
+
+
+
